@@ -1,0 +1,148 @@
+{
+  "dashboard": {
+    "stats": {
+      "totalSpend": 12864,
+      "compute": 6720,
+      "storage": 3765,
+      "network": 2379
+    },
+    "chart": [
+      { "month": "Jan", "spend": 900 },
+      { "month": "Feb", "spend": 1200 },
+      { "month": "Mar", "spend": 1450 },
+      { "month": "Apr", "spend": 1700 },
+      { "month": "May", "spend": 2100 },
+      { "month": "Jun", "spend": 2240 },
+      { "month": "Jul", "spend": 2284 },
+      { "month": "Aug", "spend": 1190 },
+      { "month": "Sep", "spend": 1576 },
+      { "month": "Oct", "spend": 1980 },
+      { "month": "Nov", "spend": 2344 },
+      { "month": "Dec", "spend": 1500 }
+    ],
+    "radar": [
+      { "service": "Compute", "value": 6720 },
+      { "service": "Storage", "value": 3765 },
+      { "service": "Network", "value": 2379 },
+      { "service": "Database", "value": 2000 }
+    ],
+    "services": [
+      { "name": "Compute Engine", "value": 2950 },
+      { "name": "Cloud Storage", "value": 1760 },
+      { "name": "Databases", "value": 1500 },
+      { "name": "BigQuery", "value": 1382 },
+      { "name": "VPC Network", "value": 1190 }
+    ]
+  },
+  "analytics": {
+    "usageStats": [
+      { "metric": "Avg CPU Utilization", "value": "67%" },
+      { "metric": "Peak Load", "value": "91%" },
+      { "metric": "Active Projects", "value": "24" },
+      { "metric": "APIs Called", "value": "46,300" }
+    ],
+    "trendData": [
+      { "date": "2025-11-01", "value": 50 },
+      { "date": "2025-11-02", "value": 100 },
+      { "date": "2025-11-03", "value": 75 }
+    ]
+  },
+  "cloudUsage": {
+    "services": [
+      { "name": "Compute Engine", "usage": "42 VMs" },
+      { "name": "Cloud Storage", "usage": "38 TB" },
+      { "name": "BigQuery", "usage": "12 datasets" }
+    ]
+  },
+  "settings": {
+    "account": { "owner": "Admin", "plan": "Premium", "region": "us-central1" },
+    "notifications": { "email": true, "slack": false, "sms": true }
+  },
+  "departments": [
+    {
+      "id": 1,
+      "name": "DevOps",
+      "hours": 7,
+      "services": ["Compute Engine", "VPC Network", "Cloud Storage"]
+    },
+    {
+      "id": 2,
+      "name": "AI Team",
+      "hours": 9,
+      "services": ["Compute Engine", "BigQuery", "Databases"]
+    },
+    {
+      "id": 3,
+      "name": "Frontend",
+      "hours": 6,
+      "services": ["Cloud Storage", "Databases"]
+    },
+    {
+      "id": 4,
+      "name": "Marketing",
+      "hours": 4,
+      "services": ["BigQuery", "Cloud Storage"]
+    }
+  ],
+  "users": [
+    {
+      "id": "user_001",
+      "name": "Admin User",
+      "email": "admin@cloudcost.com",
+      "password": "admin123",
+      "role": "admin",
+      "department": "IT",
+      "phone": "1234567890",
+      "avatar": null,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "user_002",
+      "name": "Manager User",
+      "email": "manager@cloudcost.com",
+      "password": "manager123",
+      "role": "manager",
+      "department": "DevOps",
+      "phone": "1234567891",
+      "avatar": null,
+      "createdAt": "2024-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "user_003",
+      "name": "Regular User",
+      "email": "user@cloudcost.com",
+      "password": "user123",
+      "role": "user",
+      "department": "Frontend",
+      "phone": "1234567892",
+      "avatar": null,
+      "createdAt": "2024-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "user_004",
+      "name": "John Doe",
+      "email": "john@cloudcost.com",
+      "password": "john123",
+      "role": "user",
+      "department": "AI Team",
+      "phone": "1234567893",
+      "avatar": null,
+      "createdAt": "2024-01-04T00:00:00.000Z"
+    },
+    {
+      "id": "user_005",
+      "name": "Jane Smith",
+      "email": "jane@cloudcost.com",
+      "password": "jane123",
+      "role": "manager",
+      "department": "Marketing",
+      "phone": "1234567894",
+      "avatar": null,
+      "createdAt": "2024-01-05T00:00:00.000Z"
+    }
+  ],
+  "budgets": [],
+  "alerts": [],
+  "resources": [],
+  "activityLogs": []
+}

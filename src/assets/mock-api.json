@@ -1,0 +1,65 @@
+{
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard Overview",
+      "widgets": [
+        { "type": "stat", "label": "Total Cloud Spend", "value": "$1,250" },
+        { "type": "stat", "label": "Active Services", "value": "12" },
+        { "type": "stat", "label": "Monthly Usage", "value": "78%" }
+      ]
+    },
+    {
+      "id": "analytics",
+      "title": "Cloud Analytics",
+      "charts": [
+        {
+          "type": "line",
+          "label": "Monthly Cost Trend",
+          "data": [400, 380, 450, 500, 470, 520]
+        },
+        {
+          "type": "bar",
+          "label": "Usage Distribution",
+          "data": [70, 40, 55, 90, 60]
+        }
+      ]
+    },
+    {
+      "id": "cloud-storage",
+      "title": "Cloud Storage Overview",
+      "buckets": [
+        {
+          "id": "b1",
+          "name": "App-Logs-Bucket",
+          "size": "42GB",
+          "region": "us-east-1",
+          "status": "healthy"
+        },
+        {
+          "id": "b2",
+          "name": "Media-Storage",
+          "size": "230GB",
+          "region": "ap-south-1",
+          "status": "warning"
+        },
+        {
+          "id": "b3",
+          "name": "Backup-Container",
+          "size": "120GB",
+          "region": "eu-west-2",
+          "status": "healthy"
+        }
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Account & App Settings",
+      "options": [
+        { "key": "darkMode", "label": "Dark Mode", "value": true },
+        { "key": "emailAlerts", "label": "Email Alerts", "value": false },
+        { "key": "backup", "label": "Auto Backup", "value": true }
+      ]
+    }
+  ]
+}
